@@ -29,7 +29,7 @@ A Flutter application demonstrating clean architecture with user profile managem
 
 1. Clone the repository
 ```bash
-git clone https://github.com/gidcode/new_my_app.git
+git clone https://github.com/gidcode/app_profile.git
 ```
 
 2. Navigate to project directory
