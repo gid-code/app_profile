@@ -1,16 +1,76 @@
-# new_my_app
+# Flutter Profile Management App
 
-A new Flutter project.
+A Flutter application demonstrating clean architecture with user profile management features. Built using Provider for state management and GoRouter for navigation.
+
+## Features
+
+- User profile management
+- Form validation
+- Clean architecture
+- Unit tests
+- Widget tests
+
+## Screenshots
+
+| Account Screen | Update Profile |
+|---------------|----------------|
+| ![Account Screen](account.png) | ![Update Profile](update.png) |
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK (>=3.0.0)
+- Dart SDK (>=3.0.0)
+- Android Studio / VS Code
+- Android Emulator / iOS Simulator
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository
+```bash
+git clone https://github.com/gidcode/new_my_app.git
+```
+
+2. Navigate to project directory
+```bash
+cd new_my_app
+```
+
+3. Get dependencies
+```bash
+flutter pub get
+```
+
+4. Run the app
+```bash
+flutter run
+```
+
+### Running Tests
+
+To run all tests:
+```bash
+flutter test
+```
+
+To run tests with coverage:
+```bash
+flutter test --coverage
+```
+
+## Project Structure
+
+```
+lib/
+  ├── config/        # Project Configuration
+  ├── core/          # Core UI Components
+  ├── data/          # Data layer
+  ├── navigation/    # Navigation
+  ├── models/        # Domain models
+  ├── ui/            # UI layer
+  │   ├── account/   # Account features
+  │   └── shared/    # Shared UI components
+  └── utils/         # Utilities
+```
+
